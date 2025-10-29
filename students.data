@@ -1,0 +1,86 @@
+[
+    {
+        "id": "489120",
+        "name": "Ziqi Zhang",
+        "email": "ziqi.zhang@university.com",
+        "password": "Helloworld123",
+        "subjects": [
+            {
+                "id": "881",
+                "mark": 78,
+                "grade": "D"
+            },
+            {
+                "id": "841",
+                "mark": 78,
+                "grade": "D"
+            },
+            {
+                "id": "925",
+                "mark": 81,
+                "grade": "D"
+            },
+            {
+                "id": "795",
+                "mark": 37,
+                "grade": "F"
+            }
+        ]
+    },
+    {
+        "id": "906480",
+        "name": "Chloe Zhang",
+        "email": "chloe.zhang@university.com",
+        "password": "Helloworld123",
+        "subjects": [
+            {
+                "id": "791",
+                "mark": 44,
+                "grade": "F"
+            },
+            {
+                "id": "450",
+                "mark": 52,
+                "grade": "P"
+            },
+            {
+                "id": "615",
+                "mark": 96,
+                "grade": "HD"
+            },
+            {
+                "id": "129",
+                "mark": 68,
+                "grade": "C"
+            }
+        ]
+    },
+    {
+        "id": "442622",
+        "name": "John Smith",
+        "email": "john.smith@university.com",
+        "password": "Helloworld123",
+        "subjects": [
+            {
+                "id": "140",
+                "mark": 91,
+                "grade": "HD"
+            },
+            {
+                "id": "203",
+                "mark": 49,
+                "grade": "F"
+            },
+            {
+                "id": "038",
+                "mark": 47,
+                "grade": "F"
+            },
+            {
+                "id": "979",
+                "mark": 61,
+                "grade": "P"
+            }
+        ]
+    }
+]

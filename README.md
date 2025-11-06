@@ -1,13 +1,13 @@
-GUIUniApp / CLIUniApp – Student Enrolment System
+# GUIUniApp / CLIUniApp – Student Enrolment System
 
 A small University application implemented in **Python** with:
 
 * **CLI APP** for **Student** and **Admin**
-* **GUI APP** for **registered students**
+* **GUI APP**  for registered students
 
 All data is stored in a local JSON file: `students.data`.
 
-## Project Overview 
+## Project Overview (mapped to requirements)
 
 * **Student (CLI)**: register (regex-validated), login, **enrol (max 4)**, **remove subject**, **change password**, **show enrolment** (marks, grades, average, PASS/FAIL).
 * **Admin (CLI)**: **show all students**, **group by grade**, **partition PASS/FAIL**, **remove by ID**, **clear database**.
@@ -23,11 +23,12 @@ All data is stored in a local JSON file: `students.data`.
 
 ## Installation & Setup
 
+```
 # Windows
 .venv\Scripts\activate
 # macOS/Linux
 source .venv/bin/activate
-
+```
 
 Clone/download the project into a folder with these files:
 
@@ -54,7 +55,9 @@ students.data   # auto-created on first run if missing
 
 ### CLI entry
 
+```
 python Main.py
+```
 
 Follow on-screen menus:
 
@@ -65,7 +68,9 @@ Follow on-screen menus:
 
 ### GUI (challenge task)
 
+```
 python GUI_APP.py
+```
 
 * **Login window**: enter registered email/password (from `students.data`).
 * **Enrolment window**: **Enrol Subject** (auto id/mark/grade), **View Subjects** (list + average + PASS/FAIL), **Logout**.
@@ -102,4 +107,7 @@ python GUI_APP.py
 * `StudentModel.py` / `SubjectModel.py` – domain models + `to_dict()/from_dict()`
 * `StudentSystem.py` / `AdminSystem.py` / `EnrollmentSystem.py` – CLI actions/handlers
 * `Colors.py` – console colour codes (optional for CLI output)
+
+
+
 
